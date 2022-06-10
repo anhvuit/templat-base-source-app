@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Value from build type: debug -->
+    <integer name="react_native_dev_server_port">8081</integer>
+    <!-- Value from build type: debug -->
+    <integer name="react_native_inspector_proxy_port">8081</integer>
+    <!-- Value from default config. -->
+    <string name="APP_VERSION" translatable="false">"1.0.0"</string>
+    <!-- Value from default config. -->
+    <string name="BASE_URL" translatable="false">"https://api.binance.com"</string>
+    <!-- Value from default config. -->
+    <string name="IOS_APP_ID" translatable="false">".application.demo"</string>
+    <!-- Value from default config. -->
+    <string name="IOS_APP_NAME" translatable="false">"Demo001"</string>
+    <!-- Value from default config. -->
+    <string name="IOS_PROJECT_NAME" translatable="false">"Demo"</string>
+    <!-- Value from default config. -->
+    <string name="IOS_PROJECT_PATH" translatable="false">"./ios"</string>
+    <!-- Value from default config. -->
+    <string name="URL_TIME_OUT" translatable="false">"10000"</string>
+
+</resources>

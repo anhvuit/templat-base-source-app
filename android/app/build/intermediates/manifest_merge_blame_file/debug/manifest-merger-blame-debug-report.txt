@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14
+15    <queries>
+15-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:26:5-34:15
+16        <intent>
+16-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:27:9-33:18
+17            <action android:name="android.intent.action.VIEW" />
+17-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:28:11-63
+17-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:28:19-60
+18
+19            <category android:name="android.intent.category.BROWSABLE" />
+19-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:30:11-72
+19-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:30:21-69
+20
+21            <data android:scheme="https" />
+21-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:31:11-79
+21-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:31:46-76
+22        </intent>
+23    </queries>
+24
+25    <application
+25-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:6:5-41:19
+26        android:name="com.demo.MainApplication"
+26-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:7:7-38
+27        android:allowBackup="false"
+27-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:11:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.6.0] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/5c61d7afbc1bcd99cb491da6ba2ee6c1/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:9:7-41
+31        android:label="@string/app_name"
+31-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:8:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:10:7-52
+33        android:theme="@style/AppTheme"
+33-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:12:7-38
+34        android:usesCleartextTraffic="true" >
+34-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/debug/AndroidManifest.xml:8:9-44
+35        <activity
+35-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/debug/AndroidManifest.xml:11:9-111
+36            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+36-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/debug/AndroidManifest.xml:11:19-83
+37            android:exported="false" />
+37-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/debug/AndroidManifest.xml:11:84-108
+38        <activity
+38-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:13:7-40:18
+39            android:name="com.demo.MainActivity"
+39-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:14:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:16:9-118
+41            android:exported="true"
+41-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:19:9-32
+42            android:label="@string/app_name"
+42-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:15:9-41
+43            android:launchMode="singleTask"
+43-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:17:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:18:9-51
+45            <intent-filter>
+45-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:20:9-23:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:21:13-65
+46-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:21:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:22:13-73
+48-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:22:23-70
+49            </intent-filter>
+50
+51            <!-- Deeplink Config -->
+52            <intent-filter>
+52-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:27:9-32:25
+53                <action android:name="android.intent.action.VIEW" />
+53-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:28:11-63
+53-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:28:19-60
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:29:11-70
+55-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:29:21-67
+56                <category android:name="android.intent.category.BROWSABLE" />
+56-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:30:11-72
+56-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:30:21-69
+57
+58                <data
+58-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:31:11-79
+59                    android:host="auth2redirect"
+59-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:31:17-45
+60                    android:scheme="com.apps.weme" />
+60-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:31:46-76
+61            </intent-filter>
+62            <intent-filter>
+62-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:34:9-39:25
+63                <action android:name="android.intent.action.VIEW" />
+63-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:28:11-63
+63-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:28:19-60
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:29:11-70
+65-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:29:21-67
+66                <category android:name="android.intent.category.BROWSABLE" />
+66-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:30:11-72
+66-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:30:21-69
+67
+68                <data
+68-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:31:11-79
+69                    android:host="openApp"
+69-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:31:17-45
+70                    android:scheme="weme" />
+70-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:31:46-76
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:37:9-41:75
+74            android:name="net.openid.appauth.AuthorizationManagementActivity"
+74-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:38:13-78
+75            android:exported="false"
+75-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:39:13-37
+76            android:launchMode="singleTask"
+76-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:40:13-44
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:41:13-72
+78        <activity
+78-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:42:9-53:20
+79            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+79-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:43:13-74
+80            android:exported="true" >
+80-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:44:13-36
+81            <intent-filter>
+81-->[net.openid:appauth:0.8.1] /Users/vu.nguyenngocanh/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:45:13-52:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:28:11-63
+82-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:28:19-60
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:29:11-70
+84-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:29:21-67
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:30:11-72
+85-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:30:21-69
+86
+87                <data android:scheme="com.apps.weme" />
+87-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:31:11-79
+87-->/Users/vu.nguyenngocanh/Documents/demo/android/app/src/main/AndroidManifest.xml:31:46-76
+88            </intent-filter>
+89        </activity>
+90    </application>
+91
+92</manifest>
